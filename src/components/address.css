@@ -1,0 +1,91 @@
+.fount{
+    color: purple;
+    border-bottom: 2px solid rgb(14, 1, 4);
+}
+.un{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+.co{
+    
+    width: 90%;
+    height: 50vh;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.address{
+    position: absolute;
+    top: 150px;
+    margin-left:100px ;
+}
+.igand{
+    position: absolute;
+    top: 200px;
+    margin-left: 100px;
+    color: purple;
+}
+.em{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+.cut{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+.muyi{
+    position: absolute;
+    top: 200px;
+    margin-left: 450px;
+    color: purple;
+}
+.care{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    color: purple;
+}
+
+@media (max-width:450px){
+    .co{
+    top: 250px;
+    }
+    .care{
+        top: 210px;
+        left: -10px;
+    }
+    .cut{
+        top: 180px;
+        left: -90px;
+        width: 100%;
+    }
+    .muyi{
+        top: 130px;
+        margin-left: 10px;
+    }
+    .em{
+        top: 100px;
+        left: 10px;
+    }
+    .igand{
+        top: 40px;
+        margin-left: 10px;
+    }
+    .address{
+        top: 20px;
+        margin-left:10px ;
+        font-size: 15px;
+    }
+    .fount{
+        color: purple;
+        border-bottom: 2px solid rgb(14, 1, 4);
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}

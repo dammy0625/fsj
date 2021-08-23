@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ham{
+    position: absolute;
+    margin: 50px;
+    cursor: pointer;
+}
+.ham div{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+.ham div:nth-child(1){
+    width: 30px;
+}
+.fountain{
+    color: purple;
+    position: absolute;
+    top: 120px;
+    font-size: 60px;
+    left: 150px;
+}
+.art{
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 195px;
+    color: rgba(0, 0, 0, 0.733);
+}
+.explore{
+    position: absolute;
+    top: 280px;
+    font-size: 50px;
+    left: 150px;
+}
+.unor{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 80%;
+    left: 150px;
+    top: 370px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.747);
+}
+.event{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.cont{
+   position: absolute;
+   top: 330px;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.fru{
+    position: absolute;
+    list-style-type: number;
+    top: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fru li{
+    margin: 10px;
+    color: purple;
+}
+.aste{
+    position: absolute;
+    font-weight: bolder;
+    color: rgb(59, 2, 59);
+    top: 750px;
+    right: 20px;
+    font-family: monospace;
+}
+.supin{
+    position: absolute;
+    top: 410px;
+    text-align: start;
+    list-style-type: number;
+    left: 30px;
+    font-weight: bolder;
+    color: purple;
+}
+.supin li{
+    margin: 40px;
+}
+
+
+@media (max-width:450px){
+    .supin{
+        top: 290px;
+       font: 14px;
+        color: purple;
+    }
+    .aste{
+        top: 700px;
+        right: 20px;
+        font-family: monospace;
+        width: 80%;
+    }
+    .fru{
+        top: 300px;
+        font-size: 14px;
+    }
+    .cont{
+        top: 240px;
+        
+    }
+    .event{
+        top: 200px;
+        right: 20px;
+        font-size: 10px;
+    }
+    .unor{
+        width: 80%;
+        left: 50px;
+        top: 250px;
+        font-size: 14px;
+    }
+    .explore{
+        top: 200px;
+        font-size: 20px;
+        left: 50px;
+    }
+    .art{
+        font-size: 14px;
+        left: 50px;
+        top: 140px;
+    }
+    .fountain{
+        top: 100px;
+        font-size: 30px;
+        left: 50px;
+    }
+    .ham div:nth-child(1){
+        width: 25px;
+    }
+    .ham div{
+        width: 15px;
+        height: 3px;
+    }
+    .ham{
+        margin: 30px;
+    }
+}

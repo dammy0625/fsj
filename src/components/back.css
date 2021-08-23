@@ -1,0 +1,177 @@
+.mig{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.637)) ,url("./miguel.jpg");
+    background-position-y: -100px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.focus{
+    color: rgba(226, 207, 207, 0.904);
+    position: absolute;
+    margin: 100px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.glass{
+    width: 90%;
+    height: 40%;
+    background-color: transparent;
+    box-shadow:inset 2px 4px 18px rgba(255, 255, 255, 0.575);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
+.artist{
+  position: absolute;
+  color: white;
+  margin: 20px;
+}
+.name{
+    position: absolute;
+    color: white;
+    margin: 40px;
+}
+.desc{
+    color: white;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+
+.size{
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    position: absolute;
+    right: 90px;
+    top: 150px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size p{
+    width: 80%;
+   padding-bottom: 2px;
+}
+.siz{
+    color: rgba(255, 255, 255, 0.685);
+    position: absolute;
+    font-size: 15px;
+    right: 90px;
+    top: 170px;
+}
+.follow{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 30px 30px 30px 0;
+    cursor: pointer;
+    outline: none;
+}
+.follow h6{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin: 10px;
+}
+.follow div{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nai{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.637)) ,url("./chidinma.jpg");
+    background-position-y: 0px;
+    background-size: cover;
+    overflow: hidden;
+}
+.hop{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.637)) ,url("./grandma.jpg");
+    background-position-y: -200px;
+    background-position-x: 50px;
+    background-size: cover;
+    overflow: hidden;
+}
+.dav{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.637)) ,url("./dave.jpg");
+    background-position-y: -200px;
+    background-position-x: 0px;
+    background-size: cover;
+    overflow: hidden;
+}
+.joi{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.637)) ,url("./lituboy.jpg");
+    background-position-y: -200px;
+    background-position-x: 0px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media(max-width:450px){
+    .joi{
+        background-position-y: 0px;
+    background-position-x: -100px;
+    }
+    .dav{
+        background-position-y: 0px;
+    background-position-x: -150px;
+    }
+    .hop{
+        background-position-y: 0px;
+    background-position-x: -180px;
+    }
+    .siz{
+        right: 10px;
+        top: 210px;
+    }
+    .nai{
+        background-position-x: -250px;
+    }
+    
+    .size{
+        right: 10px;
+        top: 180px;
+    }
+    
+    .desc{
+        top: 120px;
+    }
+    .focus{
+        margin: 50px;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .mig{
+        background-position-x: -250px;
+        background-position-y: 0px;
+        background-size: cover;
+        
+    }
+}
